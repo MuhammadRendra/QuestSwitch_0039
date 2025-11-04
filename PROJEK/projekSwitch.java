@@ -82,6 +82,7 @@ public class projekSwitch {
             } else {
                 System.out.println("Maaf Anda Belum Memenuhi Syarat Untuk Menjadi Asdos Pada Matkul yang Dipilih");
             }
+            qs.close();
         }
     }
 }
