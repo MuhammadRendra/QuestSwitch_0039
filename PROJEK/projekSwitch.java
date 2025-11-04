@@ -42,5 +42,7 @@ public class projekSwitch {
         System.out.println("Ipk: " + ipk);
         System.out.println("Predikat: " + Predikat);
 
+        if (Predikat.equals("A (Sangat Baik)") || Predikat.equals("AB (Baik Sekali)")) {
+            System.out.println("Selamat Anda Memenuhi Syarat Untuk Mendaftar Sebagai Asdos");
     }
 }
