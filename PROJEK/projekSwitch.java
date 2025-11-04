@@ -51,6 +51,9 @@ public class projekSwitch {
             System.out.println("3.Basis Data");
             System.out.println("4.Algoritma dan Pemrograman");
             System.out.println("5.Rekayasa Perangkat Lunak");
+
+            int pilihan = qs.nextInt();
+            double nilaiPilihan = 0;
         }
     }
 }
