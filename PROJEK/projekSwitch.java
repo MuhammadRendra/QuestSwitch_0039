@@ -50,7 +50,7 @@ public class projekSwitch {
             System.exit(0);
         }
 
-        
+
         mean = (strukdat + PBO + basdat + algopem + repelu) / 5;
         String Predikat;
         double ipk;
@@ -113,6 +113,9 @@ public class projekSwitch {
                 System.out.println("Maaf Anda Belum Memenuhi Syarat Untuk Menjadi Asdos Pada Matkul yang Dipilih");
             }
             qs.close();
+        }else{
+            System.out.println("Maaf Anda Tidak Memenuhi Syarat Untuk Mendaftar Sebagai Asdos");
+            System.exit(0);
         }
     }
 }
