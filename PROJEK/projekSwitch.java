@@ -44,5 +44,13 @@ public class projekSwitch {
 
         if (Predikat.equals("A (Sangat Baik)") || Predikat.equals("AB (Baik Sekali)")) {
             System.out.println("Selamat Anda Memenuhi Syarat Untuk Mendaftar Sebagai Asdos");
+            System.out.println("Pilih Salah 1 Matkul yang Ingin Diajukan Sebagai Asdos");
+            System.out.println("Daftar Mata Kuliah yang Dapat Diajukan");
+            System.out.println("1.Struktur Data");
+            System.out.println("2.Pemrograman Berorientasi Objek");
+            System.out.println("3.Basis Data");
+            System.out.println("4.Algoritma dan Pemrograman");
+            System.out.println("5.Rekayasa Perangkat Lunak");
+        }
     }
 }
