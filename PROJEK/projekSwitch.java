@@ -12,15 +12,45 @@ public class projekSwitch {
 
         System.out.println("Masukkan Nilai Struktur Data: ");
         strukdat = qs.nextDouble();
+        if (strukdat >= 0 && strukdat <= 100) {
+        }else{
+            System.out.println("Nilai Tidak Sesuai Standarnya");
+            System.exit(0);
+        }
+
         System.out.println("Masukkan Nilai Pemrograman Berorientasi Objek: ");
         PBO = qs.nextDouble();
+        if (PBO >= 0 && PBO <= 100) {
+        }else{
+            System.out.println("Nilai Tidak Sesuai Standarnya");
+            System.exit(0);
+        }
+
         System.out.println("Masukkan Nilai Basis Data: ");
         basdat = qs.nextDouble();
+        if (basdat >= 0 && basdat <= 100) {
+        }else{
+            System.out.println("Nilai Tidak Sesuai Standarnya");
+            System.exit(0);
+        }
+
         System.out.println("Masukkan Nilai Algoritma dan Pemrograman: ");
         algopem = qs.nextDouble();
+        if (algopem >= 0 && algopem <= 100) {
+        }else{
+            System.out.println("Nilai Tidak Sesuai Standarnya");
+            System.exit(0);
+        }
+
         System.out.println("Masukkan Nilai Rekayasa Perangkat Lunak: ");
         repelu = qs.nextDouble();
+        if (repelu >= 0 && repelu <= 100) {
+        }else{
+            System.out.println("Nilai Tidak Sesuai Standarnya");
+            System.exit(0);
+        }
 
+        
         mean = (strukdat + PBO + basdat + algopem + repelu) / 5;
         String Predikat;
         double ipk;
