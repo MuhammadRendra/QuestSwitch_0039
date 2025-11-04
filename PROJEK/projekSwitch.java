@@ -76,6 +76,12 @@ public class projekSwitch {
                     System.exit(0);
 
             }
+
+            if (nilaiPilihan >= 75) {
+                System.out.println("Selamat Anda Dinyatakan Eligible Untuk Menjadi Asdos Pada Matkul yang Dipilih");
+            } else {
+                System.out.println("Maaf Anda Belum Memenuhi Syarat Untuk Menjadi Asdos Pada Matkul yang Dipilih");
+            }
         }
     }
 }
