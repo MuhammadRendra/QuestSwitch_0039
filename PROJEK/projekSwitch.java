@@ -54,6 +54,28 @@ public class projekSwitch {
 
             int pilihan = qs.nextInt();
             double nilaiPilihan = 0;
+
+            switch (pilihan) {
+                case 1:
+                    nilaiPilihan = strukdat;
+                    break;
+                case 2:
+                    nilaiPilihan = PBO;
+                    break;
+                case 3:
+                    nilaiPilihan = algopem;
+                    break;
+                case 4:
+                    nilaiPilihan = strukdat;
+                    break;
+                case 5:
+                    nilaiPilihan = repelu;
+                    break;
+                default:
+                    System.out.println("pilihan Tidak Valid");
+                    System.exit(0);
+
+            }
         }
     }
 }
