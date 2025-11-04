@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class projekSwitch {
     public static void main(String[] args) {
-       Scanner qs = new Scanner(System.in);
+        Scanner qs = new Scanner(System.in);
 
-       System.out.println("Nilai Matkul");
+        System.out.println("Nilai Matkul");
 
-       double strukdat, PBO, basdat, algopem, repelu, mean;
+        double strukdat, PBO, basdat, algopem, repelu, mean;
 
         System.out.println("Masukkan Nilai Struktur Data: ");
         strukdat = qs.nextDouble();
@@ -22,6 +22,8 @@ public class projekSwitch {
         repelu = qs.nextDouble();
 
         mean = (strukdat + PBO + basdat + algopem + repelu) / 5;
+        String Predikat;
+        double ipk;
 
     }
 }
