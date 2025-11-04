@@ -20,5 +20,8 @@ public class projekSwitch {
         algopem = qs.nextDouble();
         System.out.println("Masukkan Nilai Rekayasa Perangkat Lunak: ");
         repelu = qs.nextDouble();
+
+        mean = (strukdat + PBO + basdat + algopem + repelu) / 5;
+
     }
 }
