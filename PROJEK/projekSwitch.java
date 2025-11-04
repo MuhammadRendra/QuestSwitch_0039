@@ -38,6 +38,7 @@ public class projekSwitch {
             Predikat = "C (Kurang)";
         }
 
+        System.out.println("Nilai Rata-Rata: " + mean);
 
     }
 }
