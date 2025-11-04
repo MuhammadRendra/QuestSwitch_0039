@@ -26,6 +26,18 @@ public class projekSwitch {
         double ipk;
         ipk = mean / 25;
 
+        if (ipk >= 3.75 && ipk >= 4) {
+            Predikat = "A (Sangat Baik)";
+        } else if (ipk >= 3.50 && ipk < 3.75) {
+            Predikat = "AB (Baik Sekali)";
+        } else if (ipk >= 3.00 && ipk < 3.50) {
+            Predikat = "B (Baik)";
+        } else if (ipk >= 2.50 && ipk < 3.00) {
+            Predikat = "Predikat BC (Cukup)";
+        } else {
+            Predikat = "C (Kurang)";
+        }
+
 
     }
 }
