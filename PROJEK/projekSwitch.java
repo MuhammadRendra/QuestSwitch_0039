@@ -39,6 +39,7 @@ public class projekSwitch {
         }
 
         System.out.println("Nilai Rata-Rata: " + mean);
+        System.out.println("Ipk: " + ipk);
 
     }
 }
