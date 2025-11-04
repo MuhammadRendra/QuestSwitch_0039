@@ -24,6 +24,8 @@ public class projekSwitch {
         mean = (strukdat + PBO + basdat + algopem + repelu) / 5;
         String Predikat;
         double ipk;
+        ipk = mean / 25;
+
 
     }
 }
